@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Studio - Bring Music to Your Life</title>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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" />
+  </head>
+  <style>
+    
+/* importing two Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: lightgrey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: lightpink;
+   font-family: 'Varela Round', 'Times New Roman', Times, serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('https://e0.pxfuel.com/wallpapers/918/118/desktop-wallpaper-headphones-monochrome-and-mobile-background-heads-minimalist.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-direction: column;
+    width: 100%; /* Ensure it spans the entire width of the viewport */
+}
+
+
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="data:image/png;base64,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" alt="Music Studio" /> Music Studio</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>My Recommended Music</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">000002.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="0" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">001005.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="1" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">010019.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="2" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">020028.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="3" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">100129.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="4" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">120126.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="5" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">135002.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="6" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">143020.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="7" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">124012.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="8" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">020029.mp3</span>
+            <span class="songlistplay"
+              ><span class="timestamp">00:30
+                <i id="9" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songInfo" data-path="">
+        <img src="https://media.tenor.com/1kHKhp_EcsgAAAAC/green-vu.gif" width="42px" alt="" id="gif" />
+        <span id="masterSongName">000002.mp3</span>
+      </div>
+      <div style="margin-top: 10px;">© MBA - Your favourite music is here. Copyrights reserved @ Students of Fast :)</div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+let songIndex = 0;
+let audioElement = new Audio('./DataSet/000/000002.mp3');
+let masterPlay = document.getElementById('masterPlay');
+let myProgressBar = document.getElementById('myProgressBar');
+let gif = document.getElementById('gif');
+let masterSongName = document.getElementById('masterSongName');
+let songItems = Array.from(document.getElementsByClassName('songItem'));
+
+let songs = [
+        { path: "DataSet/000/000002.mp3", songName: "000002.mp3" },
+        { path: "DataSet/001/001005.mp3", songName: "001005.mp3" },
+        { path: "DataSet/010/010019.mp3", songName: "010019.mp3" },
+        { path: "DataSet/020/020028.mp3", songName: "020028.mp3" },
+        { path: "DataSet/100/100129.mp3", songName: "100129.mp3" },
+        { path: "DataSet/120/120126.mp3", songName: "120126.mp3" },
+        { path: "DataSet/135/135002.mp3", songName: "135002.mp3" },
+        { path: "DataSet/143/143020.mp3", songName: "143020.mp3" },
+        { path: "DataSet/124/124012.mp3", songName: "124012.mp3" },
+        { path: "DataSet/020/020029.mp3", songName: "020029.mp3" }
+    ];
+
+function insertSongs(songs) {
+    const list = document.querySelector('.recommended_songs > ul');
+    songs.forEach(song => {
+      const listItem = document.createElement('li');
+      listItem.setAttribute('data-path', song.path);
+      listItem.setAttribute('data-name', song.songName);
+      listItem.textContent = song.songName;
+      list.appendChild(listItem);
+    });
+  }
+
+masterPlay.addEventListener('click', () => {
+    if (audioElement.paused || audioElement.currentTime <= 0) {
+        audioElement.play();
+        masterPlay.classList.remove('fa-play-circle');
+        masterPlay.classList.add('fa-pause-circle');
+        gif.style.opacity = 1;
+    } else {
+        audioElement.pause();
+        masterPlay.classList.add('fa-play-circle');
+        masterPlay.classList.remove('fa-pause-circle');
+        gif.style.opacity = 0;
+    }
+});
+
+audioElement.addEventListener('timeupdate', () => {
+    progress = parseInt((audioElement.currentTime / audioElement.duration) * 100);
+    myProgressBar.value = progress;
+});
+
+myProgressBar.addEventListener('change', () => {
+    audioElement.currentTime = myProgressBar.value * audioElement.duration / 100;
+});
+
+const makeAllPlays = () => {
+    Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) => {
+        element.classList.remove('fa-pause-circle');
+        element.classList.add('fa-play-circle');
+    });
+};
+
+const makeAllBackgrounds = () => {
+    songItems.forEach((element) => {
+        element.style.background = "";
+    });
+};
+
+const getNearestNeighbors = (audioPath) => {
+    fetch('/get_neighbors', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({audio_path: audioPath}),
+    })
+    .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                console.log('Nearest Neighbors:', data.html_ul);
+    
+                var tempDiv = document.createElement('div');
+                tempDiv.innerHTML = data.html_ul;
+    
+                var listItems = tempDiv.querySelectorAll('li');
+    
+                songs = Array.from(listItems).map(li => ({
+                    path: li.getAttribute('data-path'),
+                    songName: li.getAttribute('data-name')
+                }));
+
+                console.log(songs);
+    
+                // Select all songName spans within the songItemContainer
+                const songNameSpans = document.querySelectorAll('.songItemContainer .songName');
+    
+                // Update each songName span with the new song names
+                songNameSpans.forEach((span, index) => {
+                    if (index < songs.length) {
+                        span.textContent = songs[index].songName;
+                    }
+                });
+    
+            } else {
+                throw new Error(data.message);
+            }
+        })
+    .catch(error => {
+        console.error('An error occurred:', error);
+    });
+    
+};
+
+const playSong = (index) => {
+    makeAllPlays();
+    makeAllBackgrounds();
+    if (index !== undefined) {
+        songIndex = index;
+    }
+    if (songIndex >= songs.length) {
+        songIndex = 0;
+    } else if (songIndex < 0) {
+        songIndex = songs.length - 1;
+    }
+    audioElement.src = songs[songIndex].path;
+    masterSongName.innerText = songs[songIndex].songName;
+    audioElement.currentTime = 0;
+    audioElement.play().then(() => {
+        masterPlay.classList.remove('fa-play-circle');
+        masterPlay.classList.add('fa-pause-circle');
+        gif.style.opacity = 1;
+        getNearestNeighbors(songs[songIndex].path);
+        songs = [];
+        insertSongs(songs);
+    }).catch((e) => {
+        console.error("Playback was prevented due to: ", e);
+    });
+}
+
+songItems.forEach((item, i) => {
+    item.getElementsByTagName("img")[0].src = `covers/${i+1}.jpg`;
+    item.getElementsByTagName("img")[0].alt = songs[i].songName;
+    item.getElementsByClassName("songItemPlay")[0].id = `songItemPlay${i+1}`;
+    item.getElementsByClassName("songItemPlay")[0].addEventListener('click', (e) => {
+        makeAllBackgrounds();
+        makeAllPlays();
+        songIndex = parseInt(e.target.id.replace('songItemPlay', '')) - 1;
+        e.target.classList.remove('fa-play-circle');
+        e.target.classList.add('fa-pause-circle');
+        playSong(songIndex);
+    });
+});
+
+document.getElementById('next').addEventListener('click', () => {
+    if (songIndex < songs.length - 1) {
+        songIndex += 1;
+    } else {
+        songIndex = 0;
+    }
+    playSong();
+});
+
+document.getElementById('previous').addEventListener('click', () => {
+    if (songIndex > 0) {
+        songIndex -= 1;
+    } else {
+        songIndex = songs.length - 1;
+    }
+    playSong();
+});
+
+audioElement.addEventListener('ended', () => {
+    playSong(songIndex + 1);
+});
+
+});
+
+    </script>
+  </body>
+</html>
