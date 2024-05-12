@@ -232,13 +232,19 @@ This method of using an Annoy index is particularly useful in applications like 
 2.**Detailed Breakdown**
 
  _Head Section_
-    - Character Set and Compatibility: <meta charset="UTF-8" /> sets the character encoding to UTF-8, which includes most characters from all known human 
-      languages. <meta http-equiv="X-UA-Compatible" content="IE=edge" /> ensures the page uses the latest rendering mode in Internet Explorer.
-    - Viewport: <meta name="viewport" content="width=device-width, initial-scale=1.0" /> makes your page responsive by setting the viewport width to the device 
-      width and initial zoom level to 1.
+ 
+   - Character Set and Compatibility: <meta charset="UTF-8" /> sets the character encoding to UTF-8, which includes most characters from all known human 
+     languages. <meta http-equiv="X-UA-Compatible" content="IE=edge" /> ensures the page uses the latest rendering mode in Internet Explorer.
+      
+   - Viewport: <meta name="viewport" content="width=device-width, initial-scale=1.0" /> makes your page responsive by setting the viewport width to the device 
+     width and initial zoom level to 1.
+      
  _Title:_ <title> defines the title of the webpage, which appears in the browser tab.
-     - Stylesheets and Icons: Links to an external CSS file for styling and a favicon encoded in Base64 format.
-     - JavaScript: Links to an external JavaScript file for interactivity and includes a script for Font Awesome icons, enhancing the UI with scalable icons.
+ 
+   - Stylesheets and Icons: Links to an external CSS file for styling and a favicon encoded in Base64 format.
+     
+   - JavaScript: Links to an external JavaScript file for interactivity and includes a script for Font Awesome icons, enhancing the UI with scalable icons.
+     
   _Body Section_
 Navigation (nav) and List (ul): Contains a single list item (li) with the brand logo and name, serving as a simple navigation bar.
 
