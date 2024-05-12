@@ -209,6 +209,13 @@ A Spark session is set up with specific configurations for MongoDB.
 Data is loaded from MongoDB, processed, and used to train a recommendation model using Annoy for fast retrieval of similar items.
 This script is a robust example of integrating audio processing, Spark data handling, and machine learning for building a scalable recommendation system.
 
+##### MUSIC RECOMMENDATION.ANN 
+
+1.**Loading the Index:** The function load_trained_annoy_index() loads this .ann file into an Annoy index object. This loaded index can then be used to query for nearest neighbors.
+2.**Querying for Neighbors:** When a new song is processed, its features are extracted and then used to query this index to find other songs in your dataset that have the closest matching features (e.g., similar tempo, rhythm, or overall sound texture as determined by MFCC).
+
+This method of using an Annoy index is particularly useful in applications like music recommendation systems, where you need to quickly find items (songs) that are similar to each other based on their audio characteristics.
+
 ### PHASE 3 :  DEPLOYMENT 
 
 #### FRONTEND AND BACKEND (USING HTML , CSS AND FLASK)
